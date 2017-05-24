@@ -1,0 +1,13 @@
+# Ignore paths that contain user-generated content.
+bower_components/*
+
+# unignore jquery folder
+!bower_components/jquery
+
+# ignore contents of jquery folder
+bower_components/jquery/*
+
+# except dist
+!bower_components/jquery/dist
+
+node_modules/*
